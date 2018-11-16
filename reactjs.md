@@ -26,6 +26,8 @@ draw call 최적화 (화면에 그리고 지우는 것을 반복하는것) : 이
 * react-router-dom등 서드파티 오픈소스 조합/활용
 * 인스타그램 경우 라우터 포함하여 SPA형태로 구성되어 있음
 
+<br />
+<br />
 
 ## ReactJS 사용하게되면?
 
@@ -86,6 +88,8 @@ SPA란 서버와 통신없이 페이지 전환하는 것 (ajax로) 그렇기때�
 * 이때문에 서버사이드 뷰 템플릿과 JSX를 동시에 관리하기도-> 운영중 모든 업데이트에 2배의 작업 부하
 
 
+<br />
+<br />
 
 ## next.js
 _react, routing, server side rendering 이 포함된 프레임워크_
