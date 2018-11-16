@@ -99,7 +99,7 @@ yarn init -y
 yarn add next react react-dom
 ~~~
 
-package.json파일 열어 파일에 아래 내용 추가
+hello-next-js디렉토리 생성 후, package.json파일 열어 파일에 아래 내용 추가
 
 ~~~
   "scripts": {
@@ -109,17 +109,7 @@ package.json파일 열어 파일에 아래 내용 추가
   }
 ~~~
 
-page.js에 입력해보자
-
-~~~
-export default () => (
-	   <div> Hello, next.js!</div>
-	);
-	//yarn dev로 localhost:3000으로 서버구동하여 확인해보자
-~~~
-
-
-pages폴더안에 index.js 만들기
+hello-next-js디렉토리에 pages폴더를 만들어 index.js생성 후 아래와 같이 입력해보자
 
 ~~~
 //링크끼리연결해주는 제일 기본적인 기본 컴퍼넌트
@@ -147,7 +137,7 @@ export default () => (
 ~~~
 
 
-playground.js만들어보자
+pages폴더에 playground.js 추가 생성하여 아래와 같이 만들어보자
 
 ~~~
 import Link from 'next/link';
